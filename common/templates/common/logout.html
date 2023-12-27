@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container my-3">
+    <p>성공적으로 로그아웃되었습니다.</p>
+    <a href="{% url 'common:login' %}" class="btn btn-primary">다시 로그인하기</a>
+</div>
+{% endblock %}
