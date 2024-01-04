@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cellular-fold-400204",
+  "private_key_id": "e79f7516818ef18c6f0121bf739e40a352a09f0a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDc0+nSFTZBWCjV\nGFzohs5LzZlnuCJPseAD+SNMFwB/ADn5WvuHG4km8ukm4RtISC6X+F+Ewg5Bn0Of\nBwYSQrjmg2eliQqh7s7bqkfIhzpGsFz5OMmSBRZhMk7AVE64k9nSXqwNE0BOxOb3\ndTVp2Jh+zE7WgOlwin2/9Qu/oRPg2lyjjIxSkpti8AYP7LSJfFmhFIAGTd4iRsav\nfK//tT7hYyvk7NoKq7xQE6CZoXtfT/lIXWoRv7r1OoZxAJTnsRBECJIk+OqiKThc\nHluEkrCqvXDcWx56UM+A4FuWXPf5RrqQ8I2Juo1NA2v7R4hBQHnyMM4y2MUpwbBk\namPMdWDLAgMBAAECggEAWbflVzvUA79wM4fG85gVh7m8GmY21n8zvxmBLEBqLK8o\nXrWG3NEkq4Tkki3CGl9tQsQf9r2q8iFlZV6CqneeTNVVjm07uyfdtmSb7o52cFLm\nK0FVr/ROL+YzFbQLGbXEOVLKfzNznK0mE6L0tRDRgC681yyf61/xEETcZZppi6Aa\n8JLUz4phfUKgVnboC65n+kXdWSHGKNSe7qnytqOx3oa+AmF+FdgREorII0mKa+e0\nV+2zznCpsy5q92Jt9BcbEfXQv1cy/ytAukDr82Fp9rhS1IJcodxn1m1rTE1qFtd+\njBQg9t3JrZQED2cyYm5r/Cv6vv49Gv8XWowAGxdv/QKBgQDuA3e7PenQUDz+T3ne\nhyZdJv6fSdyzPBmZ1qHtSR5kWjomnHrKVkAy5zxAmVjV74YXxpKSsBH56U5qXfAf\nPOZKZEFSsLFHBKiZhRCaFHZa54K2lft/05ayrOoNOz1StDusWVSHXT3yTOC8QNpk\ndEXY88hbOC8rWh6WBd+dFb0r/wKBgQDtg/m/jgLxcqkN53Y4XUtNksWsNlQXMD0q\nlb8hN8tbtL3N7Spnqhe38BIFiHE9ywdgpcsYByie+qnF68aVYV2ffNitSxn9um4U\ndqwDSNxhh4o5eKaN1B8U/S1Mep+YnVUJBRfh3CQR8Uxpdik5pfwLAwOAr1LVgBXD\nDxH4Ati7NQKBgQCDs5eFHHVMt5mIfyHIaLBpyzIJoi1lYFQqNAHV8yfGD8ctplir\nrZ5IjHtio3fsqWVhspdYY+UOjHK/mMtN/bzQXTloMC1oRsOkb2UIXVpAYuqJbeSE\njuhMZjH8sFL2eJSsgaGsZYPpl3Cjup8eBti/e+XZ0/UF4BAco5NgsK7EsQKBgCE7\nwCxPYJYMJx9s7ZvBYhH+oW4RQ/7inwxgW5f4SJoSViSENNTAdgUksEDZ8I5m5Cdf\ny2UXS1XDWRH6hZTNRN5WB7NnuMFJ3rE6UaM8BKoY3vxfp15c+eRj8HytA7vE9+sF\nLWxK8zkXfEudXvNUCEo6J7lPztVU0La0Wx1KuKypAoGANqS42/Gw1/LEX2k44Vfk\n8tYnVNfLnaZJKFZ3pyfhl/49HzQ8BtRV7Oi9qs68pXg0ju+HJwYvzNKx5ONDZ5x8\nC49WEMEdam23FMhOGcJp0YhaUC68unkCnGrt6eXRu+0zwxcYLhPge1aJVaBFTNOn\nLfEkkUJYPpSb+SNkmI9iyzQ=\n-----END PRIVATE KEY-----\n",
+  "client_email": "speech-to-text-quickstart@cellular-fold-400204.iam.gserviceaccount.com",
+  "client_id": "113613361387169065930",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/speech-to-text-quickstart%40cellular-fold-400204.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
