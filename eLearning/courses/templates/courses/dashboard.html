@@ -1,0 +1,17 @@
+<!-- templates/courses/dashboard.html -->
+<h2>Your Courses</h2>
+{% if user.is_authenticated %}
+    <p>Welcome, {{ user.username }}!</p>
+{% else %}
+    <p>Welcome, Guest!</p>
+{% endif %}
+
+<ul>
+{% for course in courses %}
+    <li>
+        <a href="{% url 'courses:course_detail' pk=course.pk %}">{{ course.title }}</a>
+    </li>
+{% empty %}
+    <li>No courses available.</li>
+{% endfor %}
+</ul>

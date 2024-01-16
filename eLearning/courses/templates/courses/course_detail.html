@@ -1,0 +1,30 @@
+<!-- templates/courses/course_detail.html -->
+
+<h2>{{ course.title }}</h2>
+<p>Published on: {{ course.published_date }}</p>
+<p>{{ course.description }}</p>
+
+{% if user.is_authenticated %}
+    <p>Welcome, {{ user.username }}!</p>
+{% else %}
+    <p>Welcome, Guest!</p>
+{% endif %}
+
+{% if course.video %}
+    <video width="640" height="480" controls>
+        <source src="{{ course.video.url }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+{% else %}
+    <p>No video available.</p>
+{% endif %}
+
+{% if user.is_authenticated and not user in course.students.all %}
+    <a href="{% url 'courses:enroll_course' course.id %}">Enroll in this course</a>
+{% endif %}
+
+{% if request.user.is_authenticated and request.user.userprofile.is_instructor %}
+    <a href="{% url 'courses:course_edit' pk=course.pk %}">Edit this Course</a>
+{% endif %}
+
+

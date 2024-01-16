@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% if user.is_authenticated %}
+    <p>Welcome, {{ user.username }}!</p>
+{% else %}
+    <p>Welcome, Guest!</p>
+{% endif %}
+
+<h2>Course List</h2>
+<ul>
+    {% for course in courses %}
+    <li>
+        <!-- 강좌 제목에 상세 페이지 링크 추가 -->
+        <h3><a href="{% url 'courses:course_detail' pk=course.pk %}">{{ course.title }}</a></h3>
+        <p>Published on: {{ course.published_date }}</p>
+
+        {% if course.video %}
+            <video width="320" height="240" controls>
+                <source src="{{ course.video.url }}" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        {% else %}
+            <p>No video available.</p>
+        {% endif %}
+
+        {% if request.user.is_authenticated and request.user.userprofile.is_instructor %}
+            <a href="{% url 'courses:course_edit' pk=course.pk %}">Edit</a>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
