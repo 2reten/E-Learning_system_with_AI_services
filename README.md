@@ -8,31 +8,36 @@
 
 **Project Purpose**
 
- - This project aims to investigate and analyze the reactions of politically affiliated journalists to the release of contaminated water from the Fukushima nuclear power plant.
- - 본 프로젝트는 후쿠시마 원전의 오염수 방류에 대한 정치적 성향을 나타내는 언론사들의 반응을 조사하고 분석하는 것을 목적으로 합니다.
+ - The purpose of this project is to develop an AI-powered E-Learning System by considering the 3C perspective and four main focuses: customer value, differentiation, empowerment, and practicality. The project aims to benefit learners and teachers by providing customized learning paths, real-time feedback and diagnosis, differentiated use of AI, and empowerment, and to transform the modern education system to enhance the learning experience.
+ - 이 프로젝트의 목적은 3C 관점과 4가지 주안점을 고려하여 AI 탑재 E-Learning System을 개발하는 것입니다. 고객가치, 차별화, 역량강화, 실용화를 중심으로 맞춤형 학습 경로 제공, 실시간 피드백 및 진단, AI의 차별화된 활용, 역량 강화를 통해 학습자와 교사에게 혜택을 제공하고, 현대 교육 시스템을 혁신하여 학습 경험을 향상시키는 것을 목표로 합니다.
+
 
 **Project Table of Contents**
-- Data collection and scraping
-  - Scraping and collecting articles from each media outlet will be done from August 20 to September 27.
-- Translation
-  - Translate the collected articles from Korean, Chinese, and Russian to English.
-- Stop words processing
-  - Remove stopwords from the English-translated articles to minimize words that interfere with the analysis.
-- Scoring and sentiment analysis
-  - Assign a score to each word in the text to generate sentiment indicating positive, negative, and neutral tones.
-- Visualize results
-  - Visualize sentiment scores by media outlet to understand the nature of the sentiment they express on a topic.
+- Data Collection(Voice)
+  - Collect emotion-specific speech data for model design.
+- Data Preprocessing(Voice)
+  - Convert data into feature value backers using MFCCs for model design.
+- Model Design(Voice)
+  - Train the model and improve performance.
+- Web page implementation
+  - Integrate voice, vision, and natural language models with the web to implement web pages.
+
+
 
 
 <div align=center><h1>📚 STACKS</h1></div>
 
 <div align=center>
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/selenium-4FC08D?style=for-the-badge&logo=selenium&logoColor=white">
-<img src="https://img.shields.io/badge/plotly-000000?style=for-the-badge&logo=plotly&logoColor=white">
 <img src="https://img.shields.io/badge/jupyter-232F3E?style=for-the-badge&logo=jupyter&logoColor=white">
 <img src="https://img.shields.io/badge/pandas-F05032?style=for-the-badge&logo=pandas&logoColor=white">
 <br>
+<img src="https://img.shields.io/badge/django-092E20?style=for-the-badge&logo=Django&logoColor=white">
+<img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html&logoColor=white">
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/CNN-CC0000?style=for-the-badge&logo=CNN&logoColor=white">
 </div>
 
 ## 프로젝트 목표 및 동기
