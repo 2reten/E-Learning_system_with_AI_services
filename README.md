@@ -3,7 +3,6 @@
   <img src="https://github.com/2reten/Final_Project/assets/145303952/ad220661-f06b-4bbf-ada6-6f1daece268c" alt="이미지">
 </p>
 
-
 ## 프로젝트 소개
 
 **Project Purpose**
@@ -42,27 +41,31 @@
 
 ## 프로젝트 목표 및 동기
 **Project goals and motivation**
-- The main goal of this project is to understand and analyze the political leanings of various media outlets on the issue of contaminated water discharge from the Fukushima nuclear power plant. As the media's approach to environmental issues has a great impact on shaping social consciousness and public debate, we hope to gain insight into the interaction between political positions and the media by understanding how each media outlet is reacting to this issue. In addition, this project aims to contribute to international comparative media research by conducting accurate sentiment analysis taking into account language differences and cultural characteristics.
+- The main goal of the project is to effectively integrate artificial intelligence services to transform the modern education system and enhance the learning experience. Specifically, it aims to provide personalized learning paths, monitor students' learning status in real time and provide feedback, build automated assessment and diagnostic systems, reflect the latest technology and education trends, and make learning more accessible.
 
-- 이 프로젝트의 주된 목표는 후쿠시마 원전에서 발생한 오염수 방류 문제에 대한 다양한 언론사들의 정치적 성향을 이해하고 분석하는 것입니다. 환경 문제에 대한 언론의 접근 방식은 사회적 의식을 형성하고 공론화하는 데 큰 영향을 미치기 때문에, 각 언론사가 이 문제에 어떻게 반응하고 있는지를 파악함으로써 정치적 입장과 언론의 상호작용에 대한 통찰을 얻고자 합니다. 또한, 이 프로젝트는 언어 간의 차이와 문화적 특성을 고려하여 정확한 감정 분석을 수행함으로써 국제적인 언론 비교 연구에 기여하고자 합니다.
+- This enables students to learn efficiently by following an optimized path that suits their learning, and teachers to provide customized guidance by monitoring students' learning status in real time. We also aim to apply the latest technology and continuously improve the quality of education through continuous monitoring and upgrading.
 
+- 이 프로젝트의 주요 목표는 현대 교육 시스템을 혁신하고 학습 경험을 향상시키기 위해 인공지능 서비스를 효과적으로 통합하는 것입니다. 구체적으로는 맞춤형 학습 경로 제공, 학생들의 학습 상태를 실시간으로 모니터링하고 피드백 제공, 자동화된 평가 및 진단 시스템 구축, 최신 기술 및 교육 트렌드 반영, 학습의 접근성 향상 등을 목표로 삼고 있습니다.
+
+- 이를 통해 학생들은 자신의 학습에 맞는 최적화된 경로를 따라가며 효율적으로 학습할 수 있고, 교사는 학생들의 학습 상태를 실시간으로 파악하여 맞춤형 지도를 제공할 수 있습니다. 또한, 지속적인 모니터링과 업그레이드를 통해 최신 기술을 적용하고 교육 품질을 지속적으로 향상시키는 것을 목표로 합니다.
+
+  
 ## 프로젝트 진행 과정
 **Project progression**
 
-- Crawling process
-  
-![ezgif com-crop](https://github.com/2reten/Vis_Project/assets/145303952/7f1f8978-8140-4c8f-b1f2-7b2aa4fe5f89)
+- Interview system
+
+![image](https://github.com/2reten/Final_Project/assets/145303952/90b2da08-f8e4-4fc7-a245-32ffc0cc4936)
+
 
 - Final result
-<div>
-  <a href="https://plotly.com/~2reten/20/" target="_blank">
-    <img src="https://plotly.com/~2reten/20.png" alt="Interactive Chart"/>
-  </a>
-</div>
+<p>
+  <img src="https://github.com/2reten/Final_Project/assets/145303952/0ff34c74-074e-4231-9900-58d23db8d792" alt="이미지">
+</p>
 
 
 ## 문제점과 한계
 **Issues and limitations**
-- The main problem we encountered during the project was the difficulty in accurately conveying contextual differences between languages. Failure to account for the variations in vocabulary and expression that occur during translation can compromise the accuracy of sentiment analysis. In addition, current sentiment analysis algorithms may not take into account the importance of certain vocabulary because they weight each word in bulk. This can make it difficult to accurately determine the topics or tone that a particular journalist is emphasizing. In future research, we hope to overcome these issues by introducing more sophisticated models that better understand context and weight sentiment analysis.
-  
-- 프로젝트를 수행하면서 마주한 주요 문제점은 언어 간의 문맥 차이를 정확하게 전달하기 어렵다는 것입니다. 번역 과정에서 발생하는 어휘와 표현의 다양성을 고려하지 못하면 감정 분석의 정확성이 저하될 수 있습니다. 또한, 현재의 감정 분석 알고리즘은 각 단어의 가중치를 일괄적으로 적용하므로 특정 어휘의 중요성을 고려하지 못할 수 있습니다. 이로 인해 특정 언론사가 강조하는 주제나 어조를 정확하게 파악하기 어려울 수 있습니다. 향후 연구에서는 문맥을 보다 잘 이해하고 감정 분석에 가중치를 부여하는 더 정교한 모델을 도입하여 이러한 문제를 극복하고자 합니다.
+- Lack of interaction with learners in the E-Learning system, resulting in a lack of practical experience with interview training. There are not enough opportunities for learners to speak or interact directly in interview situations. Current E-Learning systems do not have enough interview simulation capabilities to effectively provide training for real-life interviews. Learners' lack of real-world experience makes them less prepared for real-life interviews. Finally, the natural language processing models currently in use are underpowered, making it difficult to provide accurate and effective sentiment analysis of interviewers' speech and language processing. This reduces the quality of feedback and the learning experience.
+
+- E-Learning 시스템에서 학습자와의 상호작용이 부족하여, 면접 훈련에 대한 실질적인 경험이 부족합니다. 학습자가 면접 상황에서 직접 대화하거나 상호작용하는 기회가 충분하지 않습니다. 현재의 E-Learning 시스템은 면접 시뮬레이션 기능이 충분하지 않아 실제 면접에 대한 훈련을 효과적으로 제공하지 못합니다. 학습자의 실전 경험 부재로 인해 실제 면접 대비 능력이 떨어집니다. 마지막으로, 현재 사용 중인 자연어 처리 모델의 성능이 부족하여, 면접자의 발언 및 언어 처리에 대한 정확성과 효과적인 감정 분석이 어렵습니다. 이로 인해 피드백의 품질과 학습 경험이 저하됩니다.
